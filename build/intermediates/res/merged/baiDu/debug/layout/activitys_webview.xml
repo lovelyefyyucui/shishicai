@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--    android:background="#dedede"   -->
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_top" />
+    <LinearLayout
+        android:id="@+id/web_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/load_pb"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:visibility="gone"
+            />
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/web_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bottom_red">
+
+            <LinearLayout
+                android:id="@+id/web_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/home_btn"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:duplicateParentState="true"
+                    android:textColor="@color/white"
+                    android:text="@string/home"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/web_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/back_btn"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:duplicateParentState="true"
+                    android:textColor="@color/white"
+                    android:text="@string/back"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/web_forward"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/forward_btn"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:duplicateParentState="true"
+                    android:textColor="@color/white"
+                    android:text="@string/forward"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/web_refresh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/refresh_btn"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:duplicateParentState="true"
+                    android:textColor="@color/white"
+                    android:text="@string/refresh"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/web_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/menu_btn"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:duplicateParentState="true"
+                    android:textColor="@color/white"
+                    android:text="@string/menu"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/msg_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/progress_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在加载中..."
+                android:textColor="@color/black" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:background="@color/white"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/brand_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dip"
+            android:src="@drawable/ic_launcher"
+						 />
+<!-- 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/brand_logo"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+             <TextView
+                android:id="@+id/brand_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78123-120" />
+             
+             <TextView
+                android:id="@+id/brand_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200元" />
+          
+            
+           <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:orientation="horizontal"
+              android:paddingLeft="10dip" >
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="商品数量："
+              android:textColor="@color/red" />
+          <TextView
+              android:id="@+id/brand_num"
+              android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              android:textColor="@color/red" />
+        
+           
+       				 </LinearLayout>
+           </LinearLayout>
+ -->
+    </RelativeLayout>

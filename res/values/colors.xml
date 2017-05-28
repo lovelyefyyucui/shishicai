@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_x">#d9d7d7</color>
+    <color name="white_purchase_x">#f5f4f4</color>
+    <color name="white_letter">#d4d3d3</color>
+    <color name="white_text_bg">#e7e7e7</color>
+    <color name="login">#e7e7e7</color>
+    <color name="login_button">#f5cca0</color>
+    <color name="orange_btn_2x">#eb8822</color>
+    <color name="orange_btn_x">#efaa5f</color>
+    <color name="orange_btn_3x">#FF4500</color>
+    <color name="login_text">#1536FF</color>
+    <color name="gray_bg">#808080</color>
+    <color name="gray_purchase_bg">#8f8e8e</color>
+    <color name="red">#ff0000</color>
+    <color name="g_rbs">#4f4f4f</color>
+    <color name="chima">#f55701</color>
+    <color name="frag_bg">#ececec</color>
+    <color name="black_cart">#282828</color>
+    <color name="text_gray">#919191</color>
+    <color name="orange_text">#fe6102</color>
+    <color name="orange_flea_x">#fcce3d</color>
+    <color name="orange_flea_2x">#fa9b03</color>
+    <color name="orange_flea_3x">#e45602</color>
+    <color name="gray_address">#a7a7a7</color>
+    <color name="blue_x">#58f8f7</color>
+    <color name="gray_slide">#4c4c4c</color>
+    <color name="gray_btn">#323232</color>
+    <color name="white_cart_xx">#f2f1f1</color>
+    <color name="black_x">#575757</color>
+    
+    <color name="background_color">#ffd1dce9</color>
+    <color name="text_color">#ff666666</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="BgColor">#ffd1dce9</color>
+    <color name="orderDetail">#776565</color>
+    <color name="no_color">#00000000</color>
+    <color name="list_selector">#CCCCCC</color>
+     <color name="result_minor_text">#ffc0c0c0</color>
+       <color name="status_text">#ffffffff</color>
+    <color name="yellow">#FFFF6F</color>
+     <color name="possible_result_points">#c0ffff00</color> <!-- Android standard ICS color -->
+      <color name="viewfinder_laser">#ffff0000</color> <!-- Android standard ICS color -->
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+        <color name="viewfinder_mask">#60000000</color>
+        
+         <color name="line">#33808080</color>
+    <color name="line_e9">#e9e9e9</color>
+    <color name="orange">#f37301</color>
+     <color name="viewfinder_frame">#ff000000</color>
+</resources>

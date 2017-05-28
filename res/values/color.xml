@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="turquoise">#40e0d0</color><!--青绿色 --> 
+  <color name="lawngreen">#3bae96</color><!--草绿色 -->
+  <color name="share_back">#f7f7f7</color>
+  <color name="darkgray">#a9a9a9</color><!--暗灰色 -->
+   <color name="bottom_red">#ff2500</color><!--暗红色 -->
+   <color name="bottom_red_press">#ff8800</color><!--暗红色 -->
+</resources>

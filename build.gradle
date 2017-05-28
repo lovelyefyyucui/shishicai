@@ -1,0 +1,173 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+    compile 'com.android.support:support-v4:25.3.1'
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    lintOptions {
+        checkAllWarnings false
+        abortOnError false
+        disable 'InvalidPackage', 'InconsistentArrays', 'DefaultLocale', 'OldTargetApi', 'GradleOverrides', 'MissingTranslation', 'UnusedResources', 'GoogleAppIndexingWarning'
+    }
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.beijingsaiche.s"
+        minSdkVersion 10
+        targetSdkVersion 25
+        versionCode 9
+        versionName "1.8"
+
+        // 65535 applicationId "com.beijingsaiche" "com.beijingsaiche.mi" com.beijingsaiche.s
+        multiDexEnabled true
+        // AndroidManifest.xml  UMENG_CHANNEL value  ${UMENG_CHANNEL_VALUE}
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+    }
+
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    signingConfigs {
+        debug {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            storeFile file("apk//android.keystore")
+        }
+        release {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            storeFile file("android.keystore")
+            storePassword "20170427"
+            keyAlias "android.keystore"
+            keyPassword "20170427"
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "2g"
+    }
+
+    afterEvaluate {
+        tasks.matching {
+            it.name.startsWith('dex')
+        }.each { dx ->
+            if (dx.additionalParameters == null) {
+                dx.additionalParameters = ['--multi-dex']
+            } else {
+                dx.additionalParameters += '--multi-dex'
+            }
+            dx.additionalParameters += "--main-dex-list=$projectDir/<filename>".toString()
+        }
+    }
+
+    buildTypes {
+        debug {
+//            ndk {
+//                abiFilters "x86", "armeabi-v7a", "armeabi"
+//                //abiFilters ABI_FILTERS
+//            }
+            // ��ʾLog
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+//            ndk {
+//                abiFilters "x86", "armeabi-v7a", "armeabi"
+//                //abiFilters ABI_FILTERS
+//            }
+            debuggable false
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+
+            minifyEnabled true
+
+            zipAlignEnabled true
+
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    productFlavors {
+        yiDongKaiFang360 {}
+        yingYongBao {}
+        baiDu {}
+        xiaomi {}
+        meiZuShiChang {}
+        samsung {}
+        lianxiang {}
+        huawei {}
+        souGouShiChang {}
+        wanDouJia {}
+        vivo {}
+        guanwang {}
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName = outputFile.name.replace(".apk", "-${defaultConfig.versionName}.apk")
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+}

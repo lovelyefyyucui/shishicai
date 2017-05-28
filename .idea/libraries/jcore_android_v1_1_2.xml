@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcore-android_v1.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jcore-android_v1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

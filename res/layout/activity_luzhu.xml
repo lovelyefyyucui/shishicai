@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/longhu_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/select_btn_style"
+                android:text="龙虎路珠" />
+
+            <TextView
+                android:id="@+id/daxiao_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/select_btn_style"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="大小路珠" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/danshuang_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/select_btn_style"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="单双路珠" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/qianhou_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/select_btn_style"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="前后路珠" />
+            <TextView
+                android:id="@+id/guanyehe_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/select_btn_style"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="冠亚和路珠" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

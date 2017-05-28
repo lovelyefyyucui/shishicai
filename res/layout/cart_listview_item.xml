@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/g_cart_img"
+            android:layout_width="100dip"
+            android:layout_height="80dip"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_toRightOf="@id/g_cart_img"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="品牌:"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cart_goods_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="NIKE"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="货号:"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cart_goods_sn"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="21-4187"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cart_goods_attr"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="41"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="售价:"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cart_goods_price"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black_x"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:text="数量："
+                    android:textColor="@color/black_x" />
+
+                <Button
+                    android:id="@+id/g_cart_reduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/g_cart_reduce_style"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+                <EditText
+                    android:id="@+id/g_cart_number"
+                    android:layout_width="40dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cart_et_bg"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/g_cart_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/g_cart_add_style"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

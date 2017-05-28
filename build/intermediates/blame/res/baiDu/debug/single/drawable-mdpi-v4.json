@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\arrow.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_3.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_3.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_6.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_6.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_2.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_2.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_7.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_7.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_4.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_4.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_1.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_1.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_5.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_5.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\listitem_pressed.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\listitem_pressed.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\loading_0.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\loading_0.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\shishicai.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\shishicai.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\drawable-mdpi-v4\\listitem_released.png",
+        "source": "D:\\Shishicai\\res\\drawable-mdpi\\listitem_released.png"
+    }
+]

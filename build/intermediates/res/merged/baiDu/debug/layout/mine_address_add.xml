@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_top" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="省   份： "
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/address_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:enabled="false"
+                        android:focusable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城   市： "
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/address_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false"
+                        android:focusable="false" />
+                </LinearLayout>
+                
+ 									<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="地  区： "
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/address_district"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:enabled="false"
+                        android:focusable="false" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="地   址： "
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/address_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联系人："
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/address_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="电   话： "
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/address_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="phone"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/address_submit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dip"
+                android:background="@color/login_text"
+                android:text="确认"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/address_add_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:layout_width="60dip"
+                android:layout_height="60dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在加载中..."
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:background="#e6e5e5"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/collect_goods_logo"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dip"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/collect_goods_logo"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+           <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingLeft="10dip" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品名称：" />
+              <TextView
+                android:id="@+id/collect_goods_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78123-120" />
+             </LinearLayout>
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="市场价：" />
+            <TextView
+                android:id="@+id/collect_market_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200元" />
+             </LinearLayout>
+           <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:orientation="horizontal"
+              android:paddingLeft="10dip" >
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="hiyoga店价："
+              android:textColor="@color/red" />
+          <TextView
+              android:id="@+id/collect_shop_price"
+              android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              android:text="￥1266元"
+              android:textColor="@color/red" />
+          </LinearLayout>
+             <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:orientation="horizontal"
+              android:paddingLeft="10dip" >
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="促销价："
+              android:textColor="@color/red" />
+          <TextView
+              android:id="@+id/collect_promote_price"
+              android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              android:text="￥1266元"
+              android:textColor="@color/red" />
+          </LinearLayout>
+           
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cllect_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/delete_bg"
+            android:button="@null"
+            android:gravity="center_vertical" />
+
+    </RelativeLayout>

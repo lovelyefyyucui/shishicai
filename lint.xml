@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/soshow/hiyoga/activity/MainActivity.java" />
+    </issue>
+    <issue id="ValidFragment" severity="ignore" />
+</lint>

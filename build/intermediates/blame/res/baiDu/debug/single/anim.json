@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\fade_ins.xml",
+        "source": "D:\\Shishicai\\res\\anim\\fade_ins.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\Shishicai\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\hold.xml",
+        "source": "D:\\Shishicai\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\Shishicai\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\push_bottom_in_2.xml",
+        "source": "D:\\Shishicai\\res\\anim\\push_bottom_in_2.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\anim\\push_up_out.xml",
+        "source": "D:\\Shishicai\\res\\anim\\push_up_out.xml"
+    }
+]

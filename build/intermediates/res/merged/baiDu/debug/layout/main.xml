@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+	android:orientation="vertical">
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/bottom_red"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+		<LinearLayout
+			android:id="@+id/title_left_ll"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:paddingLeft="10dp">
+
+			<ImageView
+				android:id="@+id/title_left"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				/><!--     android:src="@drawable/top_back" -->
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_marginRight="40dp"
+			android:layout_marginLeft="40dp"
+			android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/title_top"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:gravity="center_horizontal"
+			android:lines="1"
+			android:text="@string/app_name"
+			android:layout_marginBottom="3dp"
+			android:textSize="16sp" />
+
+			<TextView
+				android:id="@+id/title_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/red"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/shape"
+				android:lines="1"
+				android:text="00:00"
+				android:textSize="18sp" />
+
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:paddingRight="20dp">
+
+			<ImageView
+				android:id="@+id/title_right"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+		</LinearLayout>
+	</RelativeLayout>
+      <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+		android:layout_weight="1" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/line" />
+	<RadioGroup
+		android:id="@+id/rg_main_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp">
+
+		<RadioButton
+			android:id="@+id/main_tab_refer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@null"
+			android:drawableTop="@drawable/bg_radiobtn3"
+			android:gravity="center"
+			android:text="投注参考"
+			android:checked="true"
+			android:textSize="12sp"
+			android:drawablePadding="3dp"
+			android:textColor="@color/color_radiobutton"
+			android:layout_weight="1" />
+
+		<RadioButton
+			android:id="@+id/main_tab_works"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@null"
+			android:drawableTop="@drawable/bg_radiobtn2"
+			android:gravity="center"
+			android:text="开奖大厅"
+			android:textSize="12sp"
+			android:drawablePadding="3dp"
+			android:textColor="@color/color_radiobutton"
+			android:layout_weight="1" />
+
+
+		<RadioButton
+			android:id="@+id/main_tab_more"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@null"
+			android:gravity="center"
+			android:drawableTop="@drawable/bg_radiobtn4"
+			android:text="数据统计"
+			android:textSize="12sp"
+			android:drawablePadding="5dp"
+			android:textColor="@color/color_radiobutton"
+			android:layout_weight="1" />
+
+		<RadioButton
+			android:id="@+id/main_tab_chat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@null"
+			android:gravity="center"
+			android:drawableTop="@drawable/bg_radiobtn5"
+			android:text="走势图"
+			android:textSize="12sp"
+			android:drawablePadding="5dp"
+			android:textColor="@color/color_radiobutton"
+			android:layout_weight="1" />
+
+		<RadioButton
+			android:id="@+id/main_tab_kefu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@null"
+			android:gravity="center"
+			android:drawableTop="@drawable/bg_radiobtn1"
+			android:text="两面长龙"
+			android:textSize="12sp"
+			android:drawablePadding="5dp"
+			android:textColor="@color/color_radiobutton"
+			android:layout_weight="1" />
+	</RadioGroup>
+
+</LinearLayout>

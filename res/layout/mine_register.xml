@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+  <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:hint="请输入用户名"
+        android:textSize="16sp" />
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+    	
+    	 <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:hint="请输入新密码"
+        android:textSize="16sp" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+
+    	 <EditText
+        android:id="@+id/register_repassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:hint="请再次输入新密码"
+        android:textSize="16sp" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+      
+      <EditText
+        android:id="@+id/register_nick_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:inputType="textEmailAddress"
+        android:hint="请输入昵称"
+        android:textSize="16sp" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+      
+      <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:inputType="textEmailAddress"
+        android:hint="请输入邮箱"
+        android:textSize="16sp" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+      <EditText
+        android:id="@+id/forgetPsw1ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:inputType="phone"
+        android:hint="@string/forget_psw1_et_hint"
+        android:textSize="16sp" />
+        
+         
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+          <!-- 
+    <EditText
+        android:id="@+id/forgetPsw2ET"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:hint="@string/forget_psw2_et_hint"
+        android:inputType="number" />
+  	<Button
+        android:id="@+id/btn_obtain"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:background="@drawable/resend_btn_selector"
+        android:text="@string/obtain" />
+          -->  
+     
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@color/red"
+        android:text="确认"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="16sp" />
+
+</LinearLayout>

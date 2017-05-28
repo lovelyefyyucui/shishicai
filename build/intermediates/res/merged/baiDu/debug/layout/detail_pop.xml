@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="#e5ffffff"
+    android:id="@+id/actpopup">
+   <Button
+        android:id="@+id/popcancel"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/pop_btncancel"/>
+
+	<LinearLayout
+	    android:layout_below="@id/popcancel"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:paddingLeft="15dp"
+	    android:orientation="vertical" >
+	    
+	    	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="旅行  |  "
+	            android:layout_gravity="center"
+	            android:textSize="22sp"
+								 />
+	        <TextView
+	            android:id="@+id/acttitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+		 </LinearLayout>
+				<View
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:background="@color/line" />
+	    
+ 		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="开始："
+	            android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+	        <TextView
+	            android:id="@+id/actbegin"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+		 </LinearLayout>
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+ 		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="结束："
+	             android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+	        <TextView
+	            android:id="@+id/actend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+		 </LinearLayout>
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+ 		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="地点："
+	             android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+	        <TextView
+	            android:id="@+id/actaddr"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	             android:layout_gravity="center"
+								 />
+		 </LinearLayout>
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+	    
+ 		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="费用："
+	             android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+	        <TextView
+	            android:id="@+id/actfee"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	             android:layout_gravity="center"
+								 />
+		 </LinearLayout>
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/line" />
+ 			<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	         <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="使用积分："
+	             android:layout_gravity="center"
+	            android:textSize="18sp"
+								 />
+	        <TextView
+	            android:id="@+id/actpoint"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	             android:layout_gravity="center"
+								 />
+		 </LinearLayout>
+
+	 </LinearLayout>
+</RelativeLayout>

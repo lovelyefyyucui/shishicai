@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    >
+        <LinearLayout
+            android:id="@+id/name_ll_odd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+                <!-- android:background="@color/line" -->
+                <TextView
+                    android:id="@+id/name_tv_odd"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:ems="1"
+                    android:text="虎虎虎虎虎虎虎"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:paddingTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/name_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@color/white">
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:ems="1"
+                    android:text="龍龍"
+                    android:textColor="@color/login_text"
+                    android:textSize="14sp"
+                    android:paddingTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="5dp"/>
+        </LinearLayout>
+</LinearLayout>

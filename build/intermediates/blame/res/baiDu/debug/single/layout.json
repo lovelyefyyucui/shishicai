@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\area_lottery_list.xml",
+        "source": "D:\\Shishicai\\res\\layout\\area_lottery_list.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_setting.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_setting.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\title.xml",
+        "source": "D:\\Shishicai\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\category_double_list.xml",
+        "source": "D:\\Shishicai\\res\\layout\\category_double_list.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\fragment_capture.xml",
+        "source": "D:\\Shishicai\\res\\layout\\fragment_capture.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_collection_product.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_collection_product.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\common_orange_title.xml",
+        "source": "D:\\Shishicai\\res\\layout\\common_orange_title.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_trend.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_trend.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_register.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_register.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_luzhu_detail.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_luzhu_detail.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\luzhu_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\luzhu_listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\title_top.xml",
+        "source": "D:\\Shishicai\\res\\layout\\title_top.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_collection.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_collection.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\two_side_long.xml",
+        "source": "D:\\Shishicai\\res\\layout\\two_side_long.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\child_viewpager.xml",
+        "source": "D:\\Shishicai\\res\\layout\\child_viewpager.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\pkshi_trend_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\pkshi_trend_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_category.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_category.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_email.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_email.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\bonus_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\bonus_listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\leftitem.xml",
+        "source": "D:\\Shishicai\\res\\layout\\leftitem.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_about.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_welcom.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_welcom.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\pkshi_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\pkshi_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\grid_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_address.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_address.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\refresh_header.xml",
+        "source": "D:\\Shishicai\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_order.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_order.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\collection_tab.xml",
+        "source": "D:\\Shishicai\\res\\layout\\collection_tab.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "D:\\Shishicai\\res\\layout\\customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\cart_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\cart_listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_login.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_login.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\image_detail_fragment.xml",
+        "source": "D:\\Shishicai\\res\\layout\\image_detail_fragment.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\cold_hot_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\cold_hot_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_tool.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_tool.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_about_us.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_address_add.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_address_add.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\category_list.xml",
+        "source": "D:\\Shishicai\\res\\layout\\category_list.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_password.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_password.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\gridview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\prompt_dialog.xml",
+        "source": "D:\\Shishicai\\res\\layout\\prompt_dialog.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_generate_num.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_generate_num.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_activity_login.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_activity_login.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\tv_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\tv_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_activity.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_activity.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activitys_webview.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activitys_webview.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\refer_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\refer_listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_information.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_information.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_main_tab.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_main_tab.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\area_lottery.xml",
+        "source": "D:\\Shishicai\\res\\layout\\area_lottery.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\prediction.xml",
+        "source": "D:\\Shishicai\\res\\layout\\prediction.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_order_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_order_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_statistics_category.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_statistics_category.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\scan_result.xml",
+        "source": "D:\\Shishicai\\res\\layout\\scan_result.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_cold_hot.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_cold_hot.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\pkshi_statistics_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\pkshi_statistics_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\brand_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\brand_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\ad_page.xml",
+        "source": "D:\\Shishicai\\res\\layout\\ad_page.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "D:\\Shishicai\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "D:\\Shishicai\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\image_detail_pager.xml",
+        "source": "D:\\Shishicai\\res\\layout\\image_detail_pager.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\indecator.xml",
+        "source": "D:\\Shishicai\\res\\layout\\indecator.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\jpush_msg_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\jpush_msg_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_show_img.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_show_img.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_luzhu.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_luzhu.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_predict.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_predict.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\commodity_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\commodity_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\rightem.xml",
+        "source": "D:\\Shishicai\\res\\layout\\rightem.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\progress_dialog.xml",
+        "source": "D:\\Shishicai\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\detail_pop.xml",
+        "source": "D:\\Shishicai\\res\\layout\\detail_pop.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_collection_article.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_collection_article.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\read.xml",
+        "source": "D:\\Shishicai\\res\\layout\\read.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\news_activity.xml",
+        "source": "D:\\Shishicai\\res\\layout\\news_activity.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\refresh_footer.xml",
+        "source": "D:\\Shishicai\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award_trend_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award_trend_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\title_mine_infor.xml",
+        "source": "D:\\Shishicai\\res\\layout\\title_mine_infor.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\list_item_longclicked_img.xml",
+        "source": "D:\\Shishicai\\res\\layout\\list_item_longclicked_img.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\camera.xml",
+        "source": "D:\\Shishicai\\res\\layout\\camera.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\msg_activity.xml",
+        "source": "D:\\Shishicai\\res\\layout\\msg_activity.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\address_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\address_listview_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\commodity_child_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\commodity_child_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\main.xml",
+        "source": "D:\\Shishicai\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\g_listview_evaluate.xml",
+        "source": "D:\\Shishicai\\res\\layout\\g_listview_evaluate.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\award.xml",
+        "source": "D:\\Shishicai\\res\\layout\\award.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\two_side_long_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\two_side_long_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\activity_chart.xml",
+        "source": "D:\\Shishicai\\res\\layout\\activity_chart.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\font_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\font_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_bonus.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_bonus.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_order_detail.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_order_detail.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\order_detail_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\order_detail_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\mine_find_password.xml",
+        "source": "D:\\Shishicai\\res\\layout\\mine_find_password.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\customer_notitfication_layout_one.xml",
+        "source": "D:\\Shishicai\\res\\layout\\customer_notitfication_layout_one.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\refer_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\refer_item.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\category_single_list.xml",
+        "source": "D:\\Shishicai\\res\\layout\\category_single_list.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\chat_robot.xml",
+        "source": "D:\\Shishicai\\res\\layout\\chat_robot.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\g_listview_record.xml",
+        "source": "D:\\Shishicai\\res\\layout\\g_listview_record.xml"
+    },
+    {
+        "merged": "D:\\Shishicai\\build\\intermediates\\res\\merged\\baiDu\\debug\\layout\\msg_listview_item.xml",
+        "source": "D:\\Shishicai\\res\\layout\\msg_listview_item.xml"
+    }
+]
